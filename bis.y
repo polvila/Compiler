@@ -714,7 +714,7 @@ expRel: exp EQL exp {
                         yyerror("Semantic error: It can't compare a string with an int");
                         exit(-1);
                     }else if ($1.tipus == cadena && $3.tipus == real){
-                        yyerror("Semantic error: It can't compare a string with a real";
+                        yyerror("Semantic error: It can't compare a string with a real");
                         exit(-1);
                     }else if ($1.tipus == cadena && $3.tipus == cadena){
                         yyerror("Semantic error: It can't compare both strings majors or minors");

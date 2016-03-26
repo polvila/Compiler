@@ -1,4 +1,4 @@
-#include "definicions.h"
+#include "definitions.h"
 /* Copyright 1988 by GeoMaker Software                                      */
 /* Written by Mark Grand                                                    */
 
